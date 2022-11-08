@@ -1,8 +1,10 @@
 import React from 'react';
 
-const UserList = () => {
+const UserList = (props) => {
   return (
-    <div>UserList</div>
+    <div>
+      Estas en {props.titulo} y el subtitulo {props.subtitulo}
+    </div>
   );
 };
 

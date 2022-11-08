@@ -3,7 +3,7 @@ import React from 'react';
 const ListPage = () => {
   return (
     <>
-      <ListPage />
+      <ListPage titulo="List page" subtitulo="" />
     </>
   );
 };
